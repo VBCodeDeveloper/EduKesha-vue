@@ -1,0 +1,15 @@
+.lessons {
+  margin-bottom: 80px;
+}
+.lessons .row {
+  align-items: center;
+}
+.lessons .lessons__img img {
+  width: 100%;
+}
+.lessons .lessons__info h2 {
+  margin-bottom: 30px;
+}
+.lessons .lessons__info .lessons__info-p:first-child {
+  margin-bottom: 20px;
+}/*# sourceMappingURL=lessons.css.map */

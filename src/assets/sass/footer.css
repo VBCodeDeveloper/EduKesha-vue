@@ -1,0 +1,19 @@
+.footer .footer__logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .footer__logo .footer__logo-fond {
+  width: 12%;
+}
+.footer .footer__line {
+  margin: 39px 0;
+  width: 100%;
+  height: 1px;
+  color: #EAEAEA;
+}
+.footer .footer__reference {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}/*# sourceMappingURL=footer.css.map */

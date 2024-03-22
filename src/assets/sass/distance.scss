@@ -1,0 +1,15 @@
+.distance {
+    margin-bottom: 65px;
+
+    .classroom__info {
+        .promo__info__buttons_primary-button {
+            width: 180px;
+            background-color: $primary-color;
+            color: $text-color-white;
+
+            @media screen and (max-width: $tablet) {
+                width: 100%;
+            }
+        }
+    }
+}

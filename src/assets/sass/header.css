@@ -1,0 +1,19 @@
+.header {
+  margin-bottom: 77.77px;
+}
+.header .navigation__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .navigation__wrap .burger {
+  display: none;
+}
+.header .navigation__wrap .navigation__links_list {
+  display: flex;
+  justify-content: space-between;
+  gap: 51px;
+}
+.header .navigation__wrap .navigation__links_list .navigation__links_list-item a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=header.css.map */

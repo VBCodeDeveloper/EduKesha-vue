@@ -1,0 +1,106 @@
+.promo {
+    margin-bottom: 80px;
+
+    .row{
+        align-items: center;
+    }
+    
+    .promo__info{
+        h1 {
+            font-size: 42px;
+            font-weight: 700;
+            color: $text-color-darkBlue;
+            margin-bottom: 16px;
+
+            @media screen and (max-width: $laptop) {
+                font-size: 36px;
+            }
+
+            @media screen and (max-width: $tablet) {
+                font-size: 27px;
+            }
+        }
+        
+        p {
+            color: $text-color-lightBlue;
+            margin-bottom: 19px;
+
+            @media screen and (max-width: $tablet) {
+                font-size: 16px;
+                margin-bottom: 26px;
+            }
+        }
+
+        .promo__info__buttons {
+            display: flex;
+            gap: 20px;
+
+            button {
+                font-size: 16px;
+                height: 50px;
+                border-radius: 12px;
+            }
+    
+            .promo__info__buttons_primary-button {
+                width: 180px;
+                background-color: $primary-color;
+                color: $text-color-white;
+
+                @media screen and (max-width: $tablet) {
+                    width: 100%;
+                }
+            }
+    
+            .promo__info__buttons_secondary-button {
+                width: 200px;
+                background: none;
+                border: 1px solid $primary-color;
+                color: $primary-color;
+
+                @media screen and (max-width: $tablet) {
+                    width: 100%;
+                    
+                }
+    
+                // span {
+                //     margin-right: 10px;
+                //     width: 20px;
+                //     height: 20px;
+                    
+                //     &:before {
+                //         content: '';
+                //         width: 10px;
+                //         background: url('/public/Promo_Polygon.svg');
+                //     }
+                // }
+            }
+
+            @media screen and (max-width: $tablet) {
+                width: 100%;
+                flex-direction: column;
+                gap: 8px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    
+    .promo__img {
+        img {
+            width: 100%;
+        }
+
+        img:nth-child(2) {
+            display: none;
+
+            @media screen and (max-width: $mobileL) {
+                display: block;
+            }
+        }
+        img:nth-child(1) {
+            @media screen and (max-width: $mobileL) {
+                display: none;
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,23 @@
+.lessons {
+    margin-bottom: 80px;
+    
+    .row {
+        align-items: center;
+    }
+
+    .lessons__img {
+        img {
+            width: 100%;
+        }
+    }
+    
+    .lessons__info {
+        h2 {
+            margin-bottom: 30px;
+        }
+
+        .lessons__info-p:first-child {
+            margin-bottom: 20px;
+        }
+    }
+}
