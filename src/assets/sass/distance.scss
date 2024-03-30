@@ -1,5 +1,6 @@
 .distance {
     margin-bottom: 65px;
+    background-color: $secondary-color-brightBlue;
 
     .classroom__info {
         .promo__info__buttons_primary-button {
@@ -11,5 +12,57 @@
                 width: 100%;
             }
         }
+    }
+
+    .classroom__card {
+        background-color: #fff;
+        border-radius: 35px;
+        padding: 30px 50px 38px 30px;
+        margin-right: 59px;
+        color: #000;
+        
+        > p { 
+            font-size: 20px;
+            margin-bottom: 27px;
+
+            @media screen and (max-width: $mobileL) {
+                font-size: 16px;
+            }
+        }
+        
+
+        .classroom__card__author {
+            margin-left: 81px;
+
+            p{
+                font-size: 16px;
+                position: relative;
+
+                &:first-child {
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        top: -5px;
+                        left: -81px;
+                        width: 65px;
+                        height: 65px;
+                        border-radius: 50%;
+                        background: url("/public/avatar.png") center no-repeat;
+                    }
+                }
+
+                &:last-child {
+                    color: $text-color-lightBlue;
+                }
+            }
+        }
+
+        @media screen and (max-width: $laptop) {
+            margin: 0;
+        }
+    }
+
+    @media screen and (max-width: $laptop) {
+        padding: 40px 0;
     }
 }

@@ -7,7 +7,7 @@
         <div class="container">
             <div class="footer__logo">
                 <img src="/public/logo.svg" alt="">
-                <img class="footer__logo-fond" src="/public/fond.svg" alt="">
+                <img src="/public/fond.png" alt="">
             </div>
             <div class="footer__line"></div>
             <div class="footer__reference">

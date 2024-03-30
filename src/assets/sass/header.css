@@ -6,9 +6,6 @@
   justify-content: space-between;
   align-items: center;
 }
-.header .navigation__wrap .burger {
-  display: none;
-}
 .header .navigation__wrap .navigation__links_list {
   display: flex;
   justify-content: space-between;

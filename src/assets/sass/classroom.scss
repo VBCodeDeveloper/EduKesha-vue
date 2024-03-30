@@ -12,7 +12,7 @@
             margin-bottom: 28px;
         }
 
-        @media screen and (max-width: $tablet) {
+        @media screen and (max-width: $laptop) {
             margin-bottom: 30px;
         }
     }
@@ -20,7 +20,12 @@
     .classroom__img {
         img {
             width: 100%;
+
+            @media screen and (max-width: $mobileL) {
+                box-shadow: $box-shadow;
+            }
         }
+
     }
 
     @media screen and (max-width: $laptop) {

@@ -1,0 +1,44 @@
+// .row {
+//     align-items: baseline;
+
+// }
+
+.schaduleWork {
+    margin-bottom: 80px;
+    text-align: center;
+    
+
+    h2 {
+        margin-bottom: 54px;
+        
+        @media screen and (max-width: $laptop) {
+            margin-bottom: 25px;
+        }
+    }
+
+    .schaduleWork-card {
+        img {
+            margin-bottom: 24px;
+        }
+
+        .schaduleWork-card-text {
+            a {
+                font-weight: 500;
+                font-size: 20px;
+                
+            }
+
+            p {
+                margin: 24px 21px;
+            }
+        }
+
+       
+        
+        @media screen and (max-width: $laptop) {
+            margin-bottom: 50px;
+        }
+    }
+
+    
+}

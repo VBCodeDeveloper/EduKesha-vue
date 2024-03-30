@@ -1,0 +1,16 @@
+.schaduleWork {
+  margin-bottom: 80px;
+  text-align: center;
+}
+.schaduleWork h2 {
+  margin-bottom: 54px;
+}
+.schaduleWork .schaduleWork-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.schaduleWork .schaduleWork-card .schaduleWork-card-info a {
+  font-weight: 500;
+  font-size: 20px;
+}/*# sourceMappingURL=schaduleWork.css.map */

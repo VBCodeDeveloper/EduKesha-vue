@@ -4,12 +4,17 @@
 .lessons .row {
   align-items: center;
 }
+@media screen and (max-width: 991px) {
+  .lessons .row {
+    flex-direction: column-reverse;
+  }
+}
 .lessons .lessons__img img {
   width: 100%;
 }
 .lessons .lessons__info h2 {
   margin-bottom: 30px;
 }
-.lessons .lessons__info .lessons__info-p:first-child {
-  margin-bottom: 20px;
+.lessons .lessons__info .lessons__info-p:last-child {
+  margin-top: 20px;
 }/*# sourceMappingURL=lessons.css.map */

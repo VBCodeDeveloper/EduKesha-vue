@@ -3,11 +3,17 @@
     
     .row {
         align-items: center;
+
+        @media screen and (max-width: 991px) {
+            flex-direction: column-reverse;
+        }
     }
 
     .lessons__img {
         img {
             width: 100%;
+
+            box-shadow: $box-shadow;
         }
     }
     
@@ -16,8 +22,12 @@
             margin-bottom: 30px;
         }
 
-        .lessons__info-p:first-child {
-            margin-bottom: 20px;
+        .lessons__info-p:last-child {
+            margin-top: 20px;
+        }
+
+        @media screen and (max-width: $laptop) {
+            margin-bottom: 30px;
         }
     }
 }

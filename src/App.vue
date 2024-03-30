@@ -20,7 +20,7 @@ import VshaduleWork from "./components/VschaduleWork.vue";
 </script>
 
 <template>
-    <vheader/>
+    <!-- <vheader/> -->
     <main>
         <vpromo/>
         <vclassroom/>
