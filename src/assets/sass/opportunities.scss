@@ -3,6 +3,18 @@
 
     .row {
         row-gap: 20px;
+
+        @media screen and (max-width: $tablet) {
+            display: none;
+        }
+    }
+
+    .swiper{
+        display: none;
+
+        @media screen and (max-width: $tablet) {
+            display: block;
+        }
     }
 
     h2 {
@@ -11,20 +23,21 @@
     }
 
     .chet {
-        background-color: $secondary-color-brightOrange;
-        box-shadow: $box-shadowOrange;
-
-        .opportunities__card-img-wrap {
-            background-color: $secondary-color ;
-        }
-    }
-    .nechet {
         background-color: $secondary-color-brightBlue;
         box-shadow: $box-shadow;
         
         .opportunities__card-img-wrap {
             background-color: $primary-color ;
         }
+    }
+    .nechet {
+        background-color: $secondary-color-brightOrange;
+        box-shadow: $box-shadowOrange;
+
+        .opportunities__card-img-wrap {
+            background-color: $secondary-color ;
+        }
+        
     }
     .opportunities__card {
         display: flex;
@@ -34,7 +47,7 @@
         justify-content: flex-start;
         height: 100%;
         text-align: center;
-        padding: 48px 0 33px 0;
+        padding: 48px 9px 33px 9px;
         height: 320px;
         border-radius: 20px;
 
@@ -51,44 +64,6 @@
                 width: 45%;
             }
         }
-
-        // .opportunities__cards-item {
-        //     height: 320px;
-        //     border-radius: 18px;
-        //     display: flex;
-        //     flex-direction: column;
-        //     align-items: center;
-        //     justify-content: center;
-        //     gap: 26px;
-            
-
-        //     &:nth-child(2n) {
-        //         background-color: $secondary-color-brightOrange;
-        //     }
-        //     &:nth-child(2n+1) {
-        //         background-color: $secondary-color-brightBlue;
-        //     }
-
-        //     .opportunities__cards-item-icon{
-        //         width: 89px;
-        //         height: 89px;
-        //         border-radius: 50%;
-
-        //         &:nth-child(2n) {
-        //             background-color: $secondary-color ;
-        //         }
-        //         &:nth-child(2n+1) {
-        //             background-color: $primary-color;
-        //         }
-        //     }
-
-        //     .opportunities__cards-item-text{
-        //         text-align: center;
-
-        //         h3 {
-        //             margin-bottom: 18px;
-        //         }
-        //     }
-        // }
     }
+    
 }
