@@ -7,6 +7,7 @@ import Vfooter from "./components/Vfooter.vue";
 import Vlessons from "./components/Vlessons.vue";
 import Vopportunities from "./components/Vopportunities.vue";
 import VshaduleWork from "./components/VschaduleWork.vue";
+// import VTest from "./components/VTest.vue";
 
   components: { Vfooter }
   components: { Vdistance }
@@ -16,6 +17,7 @@ import VshaduleWork from "./components/VschaduleWork.vue";
   components: { Vclassroom }
   components: { Vpromo }
   components: { Vheader }
+  // components: { VTest }
 
 </script>
 
@@ -28,6 +30,7 @@ import VshaduleWork from "./components/VschaduleWork.vue";
         <vopportunities/>
         <vshaduleWork/>
         <vdistance/>
+        <!-- <v-test></v-test> -->
     </main>
     <vfooter/>
 </template>
